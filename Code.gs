@@ -1,6 +1,8 @@
 
 function onEdit(){
   var ss = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+//dddd
   var datass = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("data");
   var activeCell = ss.getActiveCell();
   if(ss.getActiveCell().getColumn() == 4 && ss.getActiveCell().getRow() > 1) {    
